@@ -1,103 +1,156 @@
-import Image from "next/image";
+'use client'
+import { Card } from "@/app/components/card";
+import { SetStateAction, useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
+import { Loader2 } from "lucide-react";
+
+// Define the type for Algolia search results
+interface AlgoliaHit {
+  objectID: string;
+  [key: string]: any; // For any other fields in the hit
+}
+
+interface AlgoliaSearchResponse {
+  hits: AlgoliaHit[];
+  nbHits: number;
+  page: number;
+  nbPages: number;
+  hitsPerPage: number;
+  processingTimeMS: number;
+  query: string;
+}
 
 export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+  const [query, setQuery] = useState("");
+  const [searchResponse, setSearchResponse] = useState<AlgoliaSearchResponse | null>(null);
+  const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const router = useRouter();
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+  // Debounce function to prevent too many API calls
+  const debounce = (func: Function, delay: number) => {
+    let timeoutId: NodeJS.Timeout;
+    return function(...args: any[]) {
+      clearTimeout(timeoutId);
+      timeoutId = setTimeout(() => func(...args), delay);
+    };
+  };
+
+  // Fetch search results when query changes
+  const fetchSearchResults = async (searchQuery: string) => {
+    setIsLoading(true);
+    setError(null);
+
+    try {
+      // Always make the API call, even with empty query
+      const response = await fetch(`/search?query=${encodeURIComponent(searchQuery.trim())}`);
+      
+      if (!response.ok) {
+        throw new Error(`Search failed with status: ${response.status}`);
+      }
+
+      const data: {results : [AlgoliaSearchResponse]} = await response.json();
+      setSearchResponse(data.results[0]);
+    } catch (err) {
+      console.error("Search error:", err);
+      setError("Failed to fetch search results. Please try again.");
+      setSearchResponse(null);
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  // Debounced search function
+  const debouncedSearch = debounce(fetchSearchResults, 300);
+
+  // Handle search input change
+  const handleSearchQuery = (e: { target: { value: SetStateAction<string> } }) => {
+    const newQuery = e.target.value as string;
+    setQuery(newQuery);
+    router.replace(newQuery ? `/?q=${encodeURIComponent(newQuery)}` : "/");
+    debouncedSearch(newQuery);
+  };
+
+  // Initial search on page load if query parameter exists
+  useEffect(() => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const queryParam = urlParams.get('q');
+    
+    if (queryParam) {
+      setQuery(queryParam);
+    }
+    
+    // Always fetch results on initial load, even with empty query
+    fetchSearchResults(queryParam || "");
+  }, []);
+
+  return (
+    <div className={"flex flex-col items-center justify-center"}>
+      <div className={"flex relative justify-center w-2/3 mb-16"}>
+        <input
+          className={"flex h-10 rounded-md border px-3 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 w-full pl-10 py-5 text-md bg-white border-gray-200"}
+          type="search"
+          autoFocus
+          placeholder="Search MCP servers"
+          value={query}
+          onChange={handleSearchQuery}
+        />
+      </div>
+
+      {/* Loading indicator */}
+      {isLoading && (
+        <div className="flex justify-center items-center mb-8">
+          <Loader2 className="h-8 w-8 animate-spin text-gray-500" />
+          <span className="ml-2 text-gray-500">Searching...</span>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
+      )}
+
+      {/* Error message */}
+      {error && (
+        <div className="text-red-500 text-center mb-8">
+          {error}
+        </div>
+      )}
+
+      {/* Search stats */}
+      {searchResponse && searchResponse.nbHits > 0 && (
+        <div className="text-gray-500 text-center mb-4">
+          Found {searchResponse.nbHits} results in {searchResponse.processingTimeMS}ms
+        </div>
+      )}
+
+      {/* No results message */}
+      {!isLoading && query && searchResponse && searchResponse.nbHits === 0 && !error && (
+        <div className="text-gray-500 text-center mb-8">
+          No results found for "{query}"
+        </div>
+      )}
+
+      {/* Search results */}
+      <div className={"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"}>
+        {searchResponse?.hits.map((hit) => (
+          <Card 
+            key={hit.objectID}
+            title={hit.title || hit.name || 'Untitled'}
+            description={hit.summary_20	 || hit.summary_50 || 'No description available'}
+            urlx={hit.url}
+            id={hit.objectID}
+            tags={hit.tags}
           />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+        ))}
+        
+        {/* Show placeholder cards if no search results are available yet */}
+        {/*{!searchResponse && !isLoading && (*/}
+        {/*  <>*/}
+        {/*    <Card />*/}
+        {/*    <Card />*/}
+        {/*    <Card />*/}
+        {/*    <Card />*/}
+        {/*    <Card />*/}
+        {/*    <Card />*/}
+        {/*  </>*/}
+        {/*)}*/}
+      </div>
     </div>
   );
 }

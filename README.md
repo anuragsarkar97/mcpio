@@ -20,6 +20,41 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## GitHub Repository Sync
+
+This project includes a script (`sync.py`) that:
+1. Fetches README files from GitHub repositories
+2. Uses OpenAI to generate 20-word and 50-word summaries
+3. Uploads the data to Algolia for search functionality
+
+### Setup for Sync Script
+
+1. Create a `.env` file based on `.env.example`:
+   ```
+   cp .env.example .env
+   ```
+
+2. Fill in your API keys in the `.env` file:
+   ```
+   ALGOLIA_APP_ID=your_app_id
+   ALGOLIA_ADMIN_API_KEY=your_admin_api_key
+   ALGOLIA_INDEX_NAME=github_repos
+   OPENAI_API_KEY=your_openai_api_key
+   GITHUB_TOKEN=your_github_token  # Optional but recommended
+   ```
+
+3. Set up a Python virtual environment and install dependencies:
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   pip install -r requirements.txt
+   ```
+
+4. Run the sync script:
+   ```bash
+   python sync.py
+   ```
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
