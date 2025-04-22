@@ -1,0 +1,1002 @@
+[
+  {
+    "repo": "hbg/mcp-paperswithcode",
+    "status": "success",
+    "summary_20": "The mcp-paperswithcode repository enables AI assistants to access research papers and related code from the PapersWithCode API via the Model Context Protocol."
+  },
+  {
+    "repo": "andybrandt/mcp-simple-pubmed",
+    "status": "success",
+    "summary_20": "MCP Simple PubMed offers keyword-based PubMed searches, providing access to abstracts and full-text articles (when available) for AI applications via the Entrez API."
+  },
+  {
+    "repo": "angheljf/nyt",
+    "status": "success",
+    "summary_20": "A TypeScript MCP server for searching New York Times articles using keywords. Integrates with the NYTimes API and offers a `search_articles` tool."
+  },
+  {
+    "repo": "apify/mcp-server-rag-web-browser",
+    "status": "success",
+    "summary_20": "MCP server for AI agents, enabling web searches and content extraction using the RAG Web Browser Actor. Integrates with Claude Desktop for enhanced AI capabilities."
+  },
+  {
+    "repo": "Bigsy/Clojars-MCP-Server",
+    "status": "success",
+    "summary_20": "Clojars-MCP-Server is a Model Context Protocol server providing tools to fetch Clojars dependency information for Clojure projects, integrating with Cline, Claude, etc."
+  },
+  {
+    "repo": "blazickjp/arxiv-mcp-server",
+    "status": "success",
+    "summary_20": "ArXiv MCP Server bridges AI assistants to arXiv, enabling programmatic search and access to research papers via the Model Context Protocol."
+  },
+  {
+    "repo": "ChanMeng666/server-google-news",
+    "status": "success",
+    "summary_20": "Google News MCP server using SerpAPI for news searches, categorization, and supporting multiple languages/regions. Integrates easily with Claude via Smithery or manual installation."
+  },
+  {
+    "repo": "ConechoAI/openai-websearch-mcp",
+    "status": "success",
+    "summary_20": "This MCP server enables AI assistants to access OpenAI's websearch functionality, providing up-to-date information during conversations within Claude or Zed."
+  },
+  {
+    "repo": "DealExpress/mcp-server",
+    "status": "success",
+    "summary_20": "The DealX MCP server enables LLMs to interact with the DealX platform, primarily to search for ads, using the Model Context Protocol."
+  },
+  {
+    "repo": "devflowinc/trieve",
+    "status": "success",
+    "summary_20": "Trieve is an all-in-one solution for search, recommendations, and RAG, offering self-hosting, semantic search, and convenient RAG API routes."
+  },
+  {
+    "repo": "Dumpling-AI/mcp-server-dumplingai",
+    "status": "success",
+    "summary_20": "Dumpling AI MCP server offers extensive data scraping, content processing, AI agent integration, and secure code execution, accessible via API key."
+  },
+  {
+    "repo": "erithwik/mcp-hn",
+    "status": "success",
+    "summary_20": "The Hacker News MCP server offers tools to fetch stories, comments, user info, and search Hacker News content, integrating with Model Context Protocol."
+  },
+  {
+    "repo": "exa-labs/exa-mcp-server",
+    "status": "success",
+    "summary_20": "Exa MCP Server enables Claude to perform web searches using the Exa AI Search API, providing AI assistants with real-time web information."
+  },
+  {
+    "repo": "fatwang2/search1api-mcp",
+    "status": "success",
+    "summary_20": "Search1API MCP server provides search/crawl functionality. Integrates with LibreChat, Cursor, and more. Requires Node.js and a Search1API key for operation."
+  },
+  {
+    "repo": "genomoncology/biomcp",
+    "status": "success",
+    "summary_20": "BioMCP empowers AI with biomedical knowledge via structured access to clinical trials, literature, and genomic variants using the Model Context Protocol."
+  },
+  {
+    "repo": "hellokaton/unsplash-mcp-server",
+    "status": "success",
+    "summary_20": "Unsplash MCP Server: A Python-based tool for seamless Unsplash image integration and advanced searching within applications using keyword, color, and orientation filters."
+  },
+  {
+    "repo": "ihor-sokoliuk/mcp-searxng",
+    "status": "success",
+    "summary_20": "SearXNG MCP server provides web search capabilities with pagination, time filtering, language selection, and safe search options for integration with Claude Desktop."
+  },
+  {
+    "repo": "isnow890/naver-search-mcp",
+    "status": "success",
+    "summary_20": "Naver Search MCP Server integrates Naver Search and DataLab APIs, offering tools for web, news, trends, and shopping data analysis."
+  },
+  {
+    "repo": "jae-jae/fetcher-mcp",
+    "status": "success",
+    "summary_20": "Fetcher MCP uses Playwright to fetch web content, intelligently extract data, and support HTML/Markdown output, streamlining web scraping and content retrieval tasks."
+  },
+  {
+    "repo": "jae-jae/g-search-mcp",
+    "status": "success",
+    "summary_20": "G-Search MCP is a Google search tool enabling parallel, multi-keyword searches, returning structured JSON data while simulating user behavior to avoid detection."
+  },
+  {
+    "repo": "leehanchung/bing-search-mcp",
+    "status": "success",
+    "summary_20": "Bing Search MCP server integrates Bing Search API with AI assistants for web, news, and image searches. Requires a Bing API key."
+  },
+  {
+    "repo": "kagisearch/kagimcp",
+    "status": "success",
+    "summary_20": "Kagi MCP server integrates Kagi Search API with Claude Desktop for tool-assisted queries. It supports search and summarization with customizable engines and logging."
+  },
+  {
+    "repo": "modelcontextprotocol/servers",
+    "status": "success",
+    "summary_20": "Reference implementations of Model Context Protocol (MCP) servers demonstrating secure LLM access to tools and data sources, built with TypeScript and Python SDKs."
+  },
+  {
+    "repo": "modelcontextprotocol/servers",
+    "status": "success",
+    "summary_20": "Reference implementations for the Model Context Protocol (MCP), showcasing secure, controlled access to tools/data for LLMs using TypeScript and Python SDKs."
+  },
+  {
+    "repo": "mzxrai/mcp-webresearch",
+    "status": "success",
+    "summary_20": "MCP server for web research integration with Claude, enabling real-time information access and research session tracking via Google search and webpage extraction."
+  },
+  {
+    "repo": "nickclyde/duckduckgo-mcp-server",
+    "status": "success",
+    "summary_20": "DuckDuckGo MCP server provides web search and content fetching capabilities, formatted for LLMs, with rate limiting and error handling for Claude integration."
+  },
+  {
+    "repo": "reading-plus-ai/mcp-server-deep-research",
+    "status": "success",
+    "summary_20": "MCP Server for Deep Research aids in-depth topic exploration, source finding, and structured report generation, acting as a personal research assistant."
+  },
+  {
+    "repo": "SecretiveShell/MCP-searxng",
+    "status": "success",
+    "summary_20": "MCP-searxng connects agentic systems to SearXNG for web searches. It can be used via uvx or by cloning the repository."
+  },
+  {
+    "repo": "takashiishida/arxiv-latex-mcp",
+    "status": "success",
+    "summary_20": "An MCP server for accessing arXiv LaTeX source, enhancing LLM accuracy with equations. Uses arxiv-to-prompt, improving understanding of math-heavy papers in tools like Claude."
+  },
+  {
+    "repo": "the0807/GeekNews-MCP-Server",
+    "status": "success",
+    "summary_20": "GeekNews MCP server fetches articles using web scraping, caches data, and provides tools for retrieving top, new, and weekly news."
+  },
+  {
+    "repo": "tinyfish-io/agentql-mcp",
+    "status": "success",
+    "summary_20": "AgentQL MCP Server extracts web data using the Model Context Protocol. It offers an 'extract-web-data' tool and integrates with Claude, Cursor, and Windsurf."
+  },
+  {
+    "repo": "Tomatio13/mcp-server-tavily",
+    "status": "success",
+    "summary_20": "The 'mcp-server-tavily' is a MCP server using the Tavily API to perform searches and return results including AI responses, URIs, and titles."
+  },
+  {
+    "repo": "vectorize-io/vectorize-mcp-server",
+    "status": "success",
+    "summary_20": "Vectorize MCP server integrates Vectorize for retrieval and extraction, enabling advanced document processing. Install via npx or VS Code for easy setup."
+  },
+  {
+    "repo": "webscraping-ai/webscraping-ai-mcp-server",
+    "status": "success",
+    "summary_20": "WebScraping.AI MCP server offers tools for web data extraction, question answering, and structured data retrieval, configurable for LLM integration and various scraping tasks."
+  },
+  {
+    "repo": "zhsama/duckduckgo-mcp-server",
+    "status": "success",
+    "summary_20": "DuckDuckGo Search MCP Server: A TypeScript server showcasing MCP concepts, offering an easy-to-use search tool with rate limiting and error handling."
+  },
+  {
+    "repo": "zoomeye-ai/mcp_zoomeye",
+    "status": "success",
+    "summary_20": "ZoomEye MCP server enables LLMs to query network assets using ZoomEye dorks, integrating with AI assistants for enhanced network analysis and information retrieval."
+  },
+  {
+    "repo": "yamanoku/baseline-mcp-server",
+    "status": "success",
+    "summary_20": "Baseline MCP server retrieves web API support status from Web Platform Dashboard, enabling AI model integration via MCP for browser compatibility insights."
+  },
+  {
+    "repo": "dkvdm/onepassword-mcp-server",
+    "status": "success",
+    "summary_20": "This proof-of-concept MCP server securely retrieves credentials from 1Password using the Python SDK for use with Agentic AI applications like Claude."
+  },
+  {
+    "repo": "13bm/GhidraMCP",
+    "status": "success",
+    "summary_20": "GhidraMCP is a Ghidra plugin using the Model Context Protocol to connect AI assistants for binary analysis and reverse engineering tasks."
+  },
+  {
+    "repo": "atomicchonk/roadrecon_mcp_server",
+    "status": "success",
+    "summary_20": "The ROADrecon MCP Server provides AI assistants with access to Azure AD data for security analysis using ROADRecon and the Model Context Protocol."
+  },
+  {
+    "repo": "BurtTheCoder/mcp-dnstwist",
+    "status": "success",
+    "summary_20": "DNStwist MCP server automates DNS fuzzing for detecting typosquatting and phishing, integrating with Claude Desktop for security research and domain analysis."
+  },
+  {
+    "repo": "BurtTheCoder/mcp-maigret",
+    "status": "success",
+    "summary_20": "Maigret MCP server automates username OSINT across social networks via Docker. It integrates with Claude Desktop for streamlined investigations and reporting."
+  },
+  {
+    "repo": "BurtTheCoder/mcp-shodan",
+    "status": "success",
+    "summary_20": "The Shodan MCP server enables querying Shodan API and CVEDB for network intelligence, vulnerability tracking, and device discovery via Claude Desktop."
+  },
+  {
+    "repo": "BurtTheCoder/mcp-virustotal",
+    "status": "success",
+    "summary_20": "VirusTotal MCP server provides comprehensive security analysis and relationship data via the VirusTotal API, integrating with Claude Desktop for threat intelligence."
+  },
+  {
+    "repo": "fosdickio/binary_ninja_mcp",
+    "status": "success",
+    "summary_20": "This repository offers a Binary Ninja plugin and MCP bridge for integrating LLMs like Claude Desktop into reverse engineering workflows."
+  },
+  {
+    "repo": "fr0gger/MCP_Security",
+    "status": "success",
+    "summary_20": "The ORKL MCP server fetches threat reports, actors, and sources via API, integrating with MCP-compatible apps for threat intelligence analysis."
+  },
+  {
+    "repo": "qianniuspace/mcp-security-audit",
+    "status": "success",
+    "summary_20": "The MCP Security Audit Tool scans npm dependencies for vulnerabilities using real-time npm registry integration, providing detailed reports and fix recommendations."
+  },
+  {
+    "repo": "semgrep/mcp",
+    "status": "success",
+    "summary_20": "Semgrep MCP Server integrates Semgrep with LLMs and IDEs via Model Context Protocol for enhanced code scanning and vulnerability detection. Beta project."
+  },
+  {
+    "repo": "slouchd/cyberchef-api-mcp-server",
+    "status": "success",
+    "summary_20": "This MCP server bridges LLMs with CyberChef, offering tools like recipe baking and magic operations for data encoding/decoding tasks via a CyberChef API."
+  },
+  {
+    "repo": "mrexodia/ida-pro-mcp",
+    "status": "success",
+    "summary_20": "IDA Pro MCP is a Model Context Protocol server enabling vibe reversing in IDA Pro, offering various functionalities for binary analysis and modification."
+  },
+  {
+    "repo": "rad-security/mcp-server",
+    "status": "success",
+    "summary_20": "The RAD Security MCP server provides AI-powered security insights for Kubernetes and cloud environments, enabling comprehensive security analysis and monitoring capabilities."
+  },
+  {
+    "repo": "securityfortech/secops-mcp",
+    "status": "success",
+    "summary_20": "SecOps-MCP: A unified security platform integrating tools like Nuclei, Nmap, and SQLMap via Docker for streamlined security scanning and testing."
+  },
+  {
+    "repo": "roadwy/cve-search_mcp",
+    "status": "success",
+    "summary_20": "CVE-Search MCP Server provides a Model Context Protocol interface for querying the CVE-Search API, offering comprehensive vulnerability data access."
+  },
+  {
+    "repo": "nickpending/mcp-recon",
+    "status": "success",
+    "summary_20": "mcp-recon provides a conversational interface for web reconnaissance via HTTP and ASN lookups, integrating with AI tools like Claude Desktop."
+  },
+  {
+    "repo": "Gaffx/volatility-mcp",
+    "status": "success",
+    "summary_20": "Volatility MCP integrates Volatility 3 with FastAPI and MCP, enabling AI-assisted memory forensics through REST APIs for enhanced analysis and automation."
+  },
+  {
+    "repo": "co-browser/attestable-mcp-server",
+    "status": "success",
+    "summary_20": "Attestable MCP server uses RA-TLS and SGX quotes for remote attestation, ensuring code integrity and verifiable builds via GitHub Actions and secure hardware."
+  },
+  {
+    "repo": "zinja-coder/jadx-ai-mcp",
+    "status": "success",
+    "summary_20": "JADX-AI enhances JADX decompiler with AI via MCP, enabling real-time code review and analysis using Claude for reverse engineering tasks."
+  },
+  {
+    "repo": "zinja-coder/apktool-mcp-server",
+    "status": "success",
+    "summary_20": "apktool-mcp-server provides real-time reverse engineering support using LLMs like Claude through direct integration with the Model Context Protocol (MCP)."
+  },
+  {
+    "repo": "mikechao/balldontlie-mcp",
+    "status": "success",
+    "summary_20": "Balldontlie MCP server integrates the Balldontlie API for NBA, NFL, and MLB data. It provides tools for teams, players, and game information."
+  },
+  {
+    "repo": "r-huijts/firstcycling-mcp",
+    "status": "success",
+    "summary_20": "FirstCycling MCP server provides professional cycling data via web scraping, offering rider, race, and search tools for analysis and integration with Claude."
+  },
+  {
+    "repo": "r-huijts/strava-mcp",
+    "status": "success",
+    "summary_20": "Strava MCP Server: A TypeScript bridge enabling LLMs to access Strava data via the Model Context Protocol (MCP) for AI-powered fitness analysis."
+  },
+  {
+    "repo": "willvelida/mcp-afl-server",
+    "status": "success",
+    "summary_20": "AFL MCP Server provides Australian Football League data via Squiggle API, enabling retrieval of game results, standings, and team information for Claude integration."
+  },
+  {
+    "repo": "effytech/freshdesk_mcp",
+    "status": "success",
+    "summary_20": "Freshdesk MCP server integrates AI with Freshdesk for automated ticket management, creation, updates, and responses using API interactions and tools."
+  },
+  {
+    "repo": "nguyenvanduocit/jira-mcp",
+    "status": "success",
+    "summary_20": "Jira MCP: A Go connector enabling AI assistants like Claude to interact with Jira, performing operations such as issue management and workflow transitions."
+  },
+  {
+    "repo": "sooperset/mcp-atlassian",
+    "status": "success",
+    "summary_20": "MCP Atlassian: Connect AI assistants to Confluence and Jira (Cloud & Server/Data Center) using Docker for automated updates and AI-powered search."
+  },
+  {
+    "repo": "translated/lara-mcp",
+    "status": "success",
+    "summary_20": "Lara Translate MCP Server enables AI apps to access powerful translation features via the Model Context Protocol. Supports language detection and translation memories."
+  },
+  {
+    "repo": "mberg/kokoro-tts-mcp",
+    "status": "success",
+    "summary_20": "Kokoro-TTS-MCP is a text-to-speech server that generates MP3 files, with optional S3 upload, utilizing the Hugging Face Kokoro-TTS model."
+  },
+  {
+    "repo": "openbnb-org/mcp-server-airbnb",
+    "status": "success",
+    "summary_20": "The Airbnb MCP Server enables searching Airbnb listings and retrieving detailed information, providing structured JSON data without requiring an API key."
+  },
+  {
+    "repo": "KyrieTangSheng/mcp-server-nationalparks",
+    "status": "success",
+    "summary_20": "MCP server providing real-time National Park Service data: park details, alerts, activities, campgrounds, events, and visitor centers, installable via Smithery."
+  },
+  {
+    "repo": "r-huijts/ns-mcp-server",
+    "status": "success",
+    "summary_20": "The NS Travel Information MCP Server connects Claude to Dutch railway data, offering real-time train details, pricing, and station information via the NS API."
+  },
+  {
+    "repo": "pab1it0/tripadvisor-mcp",
+    "status": "success",
+    "summary_20": "A Tripadvisor MCP server provides AI assistants access to location data, reviews, and photos via standardized interfaces for travel destination searches."
+  },
+  {
+    "repo": "adhikasp/mcp-git-ingest",
+    "status": "success",
+    "summary_20": "MCP server that reads GitHub repository structure and files using fastmcp and gitpython, providing directory trees and file contents."
+  },
+  {
+    "repo": "ddukbg/github-enterprise-mcp",
+    "status": "success",
+    "summary_20": "GitHub Enterprise MCP server for Cursor integration. Access repos, issues, PRs, and more. Supports GitHub Enterprise, GitHub.com, and GitHub Enterprise Cloud."
+  },
+  {
+    "repo": "kopfrechner/gitlab-mr-mcp",
+    "status": "success",
+    "summary_20": "GitLab MR MCP enables AI agents to interact with GitLab merge requests and issues via the Model Context Protocol (MCP)."
+  },
+  {
+    "repo": "modelcontextprotocol/servers",
+    "status": "success",
+    "summary_20": "Reference implementations for the Model Context Protocol (MCP), enabling secure LLM access to tools and data via TypeScript and Python SDKs."
+  },
+  {
+    "repo": "modelcontextprotocol/servers",
+    "status": "success",
+    "summary_20": "Reference implementations for the Model Context Protocol (MCP), enabling secure, controlled LLM access to tools and data sources using TypeScript and Python SDKs."
+  },
+  {
+    "repo": "modelcontextprotocol/servers",
+    "status": "success",
+    "summary_20": "This repository contains reference implementations of Model Context Protocol (MCP) servers, showcasing secure LLM access to tools and data sources."
+  },
+  {
+    "repo": "Tiberriver256/mcp-server-azure-devops",
+    "status": "success",
+    "summary_20": "Azure DevOps MCP server enables AI assistants to interact with Azure DevOps securely, managing projects, work items, repositories, and pipelines via a standardized protocol."
+  },
+  {
+    "repo": "AbdelStark/bitcoin-mcp",
+    "status": "success",
+    "summary_20": "Bitcoin & Lightning Network MCP server empowers AI models with blockchain interaction: key generation, address validation, transaction decoding, and blockchain querying."
+  },
+  {
+    "repo": "akseyh/bear-mcp-server",
+    "status": "success",
+    "summary_20": "Bear MCP Server provides access to Bear Notes via SQL commands. It allows reading, searching, and listing notes and tags."
+  },
+  {
+    "repo": "allenporter/mcp-server-home-assistant",
+    "status": "success",
+    "summary_20": "MCP server for Home Assistant, enabling Claude Desktop integration. Requires a custom component (soon in Home Assistant Core) and configuration with API token."
+  },
+  {
+    "repo": "zxkane/mcp-server-amazon-bedrock",
+    "status": "success",
+    "summary_20": "An MCP server integrating Amazon Bedrock's Nova Canvas for AI image generation, offering quality control, negative prompts, and seed-based deterministic results."
+  },
+  {
+    "repo": "amidabuddha/unichat-mcp-server",
+    "status": "success",
+    "summary_20": "Unichat MCP server in Python provides tools and prompts for interacting with various AI models via the MCP protocol, requiring vendor API keys."
+  },
+  {
+    "repo": "anaisbetts/mcp-installer",
+    "status": "success",
+    "summary_20": "The mcp-installer server installs and manages other MCP servers from npm or PyPi, simplifying the process of deploying MCP servers with Claude."
+  },
+  {
+    "repo": "anaisbetts/mcp-youtube",
+    "status": "success",
+    "summary_20": "Downloads YouTube subtitles with yt-dlp, connects to Claude via MCP, enabling video summarization by asking Claude with the video URL."
+  },
+  {
+    "repo": "andybrandt/mcp-simple-openai-assistant",
+    "status": "success",
+    "summary_20": "A simple MCP server for interacting with OpenAI assistants, enabling tools like Claude to manage assistants, threads, and message handling using the OpenAI API."
+  },
+  {
+    "repo": "andybrandt/mcp-simple-timeserver",
+    "status": "success",
+    "summary_20": "Provides Claude with time information using local time and NTP. Fixes Claude's inability to access timestamps for messages and current time."
+  },
+  {
+    "repo": "apify/actors-mcp-server",
+    "status": "success",
+    "summary_20": "Apify MCP Server enables AI agents to use Apify Actors as tools for web scraping and data extraction via the Model Context Protocol."
+  },
+  {
+    "repo": "apinetwork/piapi-mcp-server",
+    "status": "success",
+    "summary_20": "A TypeScript MCP server integrating PiAPI for media content generation from LLMs, enabling tools like Midjourney, Kling, and Luma Dream Machine."
+  },
+  {
+    "repo": "awkoy/replicate-flux-mcp",
+    "status": "success",
+    "summary_20": "Replicate Flux MCP is a Model Context Protocol server using Replicate API to generate images and vector graphics with AI assistant integration."
+  },
+  {
+    "repo": "awwaiid/mcp-server-taskwarrior",
+    "status": "success",
+    "summary_20": "A Node.js MCP server for TaskWarrior, enabling task management (viewing, adding, completing) via a standardized protocol. Requires TaskWarrior to be installed."
+  },
+  {
+    "repo": "Badhansen/notion-mcp",
+    "status": "success",
+    "summary_20": "notion-mcp is a Model Context Protocol server integrating Notion's API to manage your todo list. It supports adding, showing and updating tasks."
+  },
+  {
+    "repo": "bart6114/my-bear-mcp-server",
+    "status": "success",
+    "summary_20": "Bear MCP Server allows AI assistants to read Bear notes via a read-only connection. Safe, secure, and easy to set up."
+  },
+  {
+    "repo": "billster45/mcp-chatgpt-responses",
+    "status": "success",
+    "summary_20": "This MCP server allows Claude Desktop to access OpenAI's ChatGPT API, enabling customizable conversations, web searches, and conversation state management using your API key."
+  },
+  {
+    "repo": "blurrah/mcp-graphql",
+    "status": "success",
+    "summary_20": "mcp-graphql enables LLMs to interact with GraphQL APIs by providing schema introspection and query execution, with mutations disabled by default for security."
+  },
+  {
+    "repo": "calclavia/mcp-obsidian",
+    "status": "success",
+    "summary_20": "The Obsidian Model Context Protocol connects Claude Desktop to Obsidian vaults, enabling search and read functionality via Smithery or VS Code configuration."
+  },
+  {
+    "repo": "chrishayuk/mcp-cli",
+    "status": "success",
+    "summary_20": "MCP CLI is a command-line tool for interacting with LLMs via the CHUK-MCP protocol, offering chat, interactive, and command modes."
+  },
+  {
+    "repo": "danhilse/notion_mcp",
+    "status": "success",
+    "summary_20": "Notion MCP Integration: A simple server connecting Claude to a personal Notion todo list with basic add, view, and complete task features."
+  },
+  {
+    "repo": "EKibort/wrike-mcp-server",
+    "status": "success",
+    "summary_20": "The wrike-mcp-server is a lightweight server that connects Wrike to LLMs, enabling AI-powered interaction with Wrike data via defined API endpoints."
+  },
+  {
+    "repo": "esignaturescom/mcp-server-esignatures",
+    "status": "success",
+    "summary_20": "MCP server for eSignatures enabling contract and template management, collaboration, and integration with the eSignatures API. Contributions are welcome."
+  },
+  {
+    "repo": "evalstate/mcp-miro",
+    "status": "success",
+    "summary_20": "MCP server connecting to MIRO Whiteboard. Enables board manipulation, sticky creation, and bulk operations. Requires MIRO OAuth key for authentication."
+  },
+  {
+    "repo": "feuerdev/keep-mcp",
+    "status": "success",
+    "summary_20": "keep-mcp is an MCP server for Google Keep, enabling note management via find, create, update, and delete functionalities. Requires Google credentials."
+  },
+  {
+    "repo": "githejie/mcp-server-calculator",
+    "status": "success",
+    "summary_20": "A Model Context Protocol (MCP) server enabling LLMs to perform precise calculations using a 'calculate' tool. Install via uv or pip."
+  },
+  {
+    "repo": "gotoolkits/mcp-difyworkflow-server",
+    "status": "success",
+    "summary_20": "mcp-difyworkflow-server enables querying and invoking Dify workflows within the mcp server environment, supporting on-demand execution of multiple custom workflows."
+  },
+  {
+    "repo": "hiromitsusasaki/raindrop-io-mcp-server",
+    "status": "success",
+    "summary_20": "Raindrop.io MCP server integrates bookmarks with LLMs, enabling bookmark creation, search, and tag filtering. Install via Smithery or manually with Node.js."
+  },
+  {
+    "repo": "hmk/attio-mcp-server",
+    "status": "success",
+    "summary_20": "Attio-mcp-server connects Claude to Attio, enabling reading and writing company records/notes via the Attio API using an API key."
+  },
+  {
+    "repo": "isaacwasserman/mcp-vegalite-server",
+    "status": "success",
+    "summary_20": "MCP server enabling LLMs to visualize data using Vega-Lite. It offers tools to save and visualize data tables, returning Vega-Lite specs or PNG images."
+  },
+  {
+    "repo": "ivo-toby/contentful-mcp",
+    "status": "success",
+    "summary_20": "Contentful MCP server provides content management capabilities like CRUD operations, space management, bulk operations, and pagination optimized for LLM integration and Claude Desktop."
+  },
+  {
+    "repo": "j3k0/speech.sh",
+    "status": "success",
+    "summary_20": "Speech.sh is a command-line tool leveraging OpenAI's API for text-to-speech conversion, offering voice customization, speed control, and API key management."
+  },
+  {
+    "repo": "jagan-shanmugam/climatiq-mcp-server",
+    "status": "success",
+    "summary_20": "The Climatiq MCP server calculates carbon emissions using the Climatiq API, enabling AI assistants to provide climate impact insights."
+  },
+  {
+    "repo": "JoshuaRileyDev/mac-apps-launcher",
+    "status": "success",
+    "summary_20": "mac-apps-launcher is an MCP server that lists and launches macOS applications, and opens files with specific applications from the /Applications folder."
+  },
+  {
+    "repo": "Harry-027/JotDown",
+    "status": "success",
+    "summary_20": "Jotdown is an MCP server enabling LLMs to create/update Notion pages and generate mdBooks, facilitating content management and publishing workflows."
+  },
+  {
+    "repo": "kelvin6365/plane-mcp-server",
+    "status": "success",
+    "summary_20": "The Plane MCP Server enables LLMs to interact with Plane.so for project and issue management, enhancing workflow automation with user control."
+  },
+  {
+    "repo": "kenliao94/mcp-server-rabbitmq",
+    "status": "success",
+    "summary_20": "RabbitMQ MCP Server enables Claude to interact with RabbitMQ queues/topics. It supports installation via Smithery or manual configuration within Claude's desktop app."
+  },
+  {
+    "repo": "k-jarzyna/mcp-miro",
+    "status": "success",
+    "summary_20": "The MCP Miro Server allows AI assistants to access and manage Miro boards via a standardized Model Context Protocol interface, enhancing AI collaboration."
+  },
+  {
+    "repo": "kimtth/mcp-remote-call-ping-pong",
+    "status": "success",
+    "summary_20": "This repository showcases an experimental Ping-Pong server using MCP calls via FastAPI, demonstrating remote command handling and thread-safe session management."
+  },
+  {
+    "repo": "kj455/mcp-kibela",
+    "status": "success",
+    "summary_20": "mcp-kibela enables AI assistants to securely search and reference Kibela content through a Model Context Protocol server implementation, enhancing AI capabilities."
+  },
+  {
+    "repo": "kiwamizamurai/mcp-kibela-server",
+    "status": "success",
+    "summary_20": "Kibela MCP Server integrates Kibela API with LLMs, enabling features like note search, content retrieval, and group management. It supports Cursor integration."
+  },
+  {
+    "repo": "KS-GEN-AI/confluence-mcp-server",
+    "status": "success",
+    "summary_20": "A TypeScript MCP server that interacts with Confluence, enabling CQL queries and page content retrieval. Useful for integrating Confluence with other applications."
+  },
+  {
+    "repo": "KS-GEN-AI/jira-mcp-server",
+    "status": "success",
+    "summary_20": "Jira communication server built with TypeScript providing tools to interact with Jira, including JQL queries and ticket management, showcasing MCP concepts."
+  },
+  {
+    "repo": "lciesielski/mcp-salesforce-example",
+    "status": "success",
+    "summary_20": "This project demonstrates Salesforce integration using MCP. It provides examples for sending emails and deploying Apex code using JWT Bearer Flow authentication."
+  },
+  {
+    "repo": "louiscklaw/hko-mcp",
+    "status": "success",
+    "summary_20": "hko_mcp integrates with the Hong Kong Observatory API, showcasing TypeScript tooling, testing, and modern JavaScript practices for personal learning and exploration."
+  },
+  {
+    "repo": "evalstate/mcp-hfspace",
+    "status": "success",
+    "summary_20": "mcp-hfspace connects Claude Desktop to Hugging Face Spaces for image generation, vision, text-to-speech, and more, using a simple configuration."
+  },
+  {
+    "repo": "magarcia/mcp-server-giphy",
+    "status": "success",
+    "summary_20": "MCP server for Giphy API. It allows AI models to search and use GIFs with content filtering and optimized response formats."
+  },
+  {
+    "repo": "integromat/make-mcp-server",
+    "status": "success",
+    "summary_20": "This legacy MCP server allows AI assistants to use Make scenarios as tools by triggering and interacting with Make automation workflows."
+  },
+  {
+    "repo": "marcelmarais/spotify-mcp-server",
+    "status": "success",
+    "summary_20": "Spotify MCP Server is a lightweight server enabling AI assistants to control Spotify playback and manage playlists using the Model Context Protocol."
+  },
+  {
+    "repo": "MarkusPfundstein/mcp-obsidian",
+    "status": "success",
+    "summary_20": "MCP server facilitating Obsidian interaction via the Local REST API plugin, enabling file management, search, and content manipulation within your Obsidian vault."
+  },
+  {
+    "repo": "quarkiverse/quarkus-mcp-servers",
+    "status": "success",
+    "summary_20": "Quarkus-based Model Context Protocol (MCP) servers extend LLM AI applications. Includes JDBC, JVM insight, filesystem, JFX, Kubernetes, containers, and Wolfram servers."
+  },
+  {
+    "repo": "mediar-ai/screenpipe",
+    "status": "success",
+    "summary_20": "Screenpipe: An open-source AI app store powered by 24/7 desktop history, enabling developers to build and monetize AI applications locally."
+  },
+  {
+    "repo": "modelcontextprotocol/servers",
+    "status": "success",
+    "summary_20": "This repository hosts reference implementations of Model Context Protocol (MCP) servers, showcasing secure LLM access to tools and data using TypeScript and Python SDKs."
+  },
+  {
+    "repo": "mzxrai/mcp-openai",
+    "status": "success",
+    "summary_20": "MCP OpenAI Server integrates OpenAI models (gpt-4o, o1) with Claude, enabling users to access them directly from the Claude desktop app."
+  },
+  {
+    "repo": "nguyenvanduocit/all-in-one-model-context-protocol",
+    "status": "success",
+    "summary_20": "MyMCP Server: An all-in-one Model Context Protocol server with tools and integrations for GitLab, Jira, Confluence, YouTube, and more."
+  },
+  {
+    "repo": "NON906/omniparser-autogui-mcp",
+    "status": "success",
+    "summary_20": "An MCP server using OmniParser to analyze the screen and automate GUI operations on Windows, configurable via environment variables. MIT licensed."
+  },
+  {
+    "repo": "pierrebrunelle/mcp-server-openai",
+    "status": "success",
+    "summary_20": "Enables querying OpenAI models from Claude using the MCP protocol. Requires configuration in `claude_desktop_config.json` and setting the OpenAI API key."
+  },
+  {
+    "repo": "pskill9/hn-server",
+    "status": "success",
+    "summary_20": "Hacker News MCP server fetches and structures stories (top, new, ask, show, jobs) for use with tools like Claude, using the Model Context Protocol."
+  },
+  {
+    "repo": "PV-Bhat/vibe-check-mcp-server",
+    "status": "success",
+    "summary_20": "Vibe Check MCP server provides AI agents with a metacognitive oversight layer to prevent errors and over-engineering through strategic pattern interrupts."
+  },
+  {
+    "repo": "pwh-pwh/cal-mcp",
+    "status": "success",
+    "summary_20": "Cal Server is a Bun-based math expression calculator utilizing FastMCP, expr-eval, and stdio for simple, efficient computations with built-in constants."
+  },
+  {
+    "repo": "pyroprompts/any-chat-completions-mcp",
+    "status": "success",
+    "summary_20": "Integrates any OpenAI-compatible chat completion API (OpenAI, Perplexity, Groq, etc.) with Claude Desktop using the Model Context Protocol server."
+  },
+  {
+    "repo": "Rai220/think-mcp",
+    "status": "success",
+    "summary_20": "Think MCP implements Anthropic's 'think' tool for agentic AI, enabling structured reasoning by logging thoughts during complex tasks and tool use."
+  },
+  {
+    "repo": "reeeeemo/ancestry-mcp",
+    "status": "success",
+    "summary_20": "Ancestry MCP Server: Python server for interacting with .ged (GEDCOM) files, enabling reading, parsing, renaming, and searching within genealogy data."
+  },
+  {
+    "repo": "rember/rember-mcp",
+    "status": "success",
+    "summary_20": "Rember MCP allows Claude to create flashcards for spaced repetition learning using the Model Context Protocol with the Rember learning platform."
+  },
+  {
+    "repo": "roychri/mcp-server-asana",
+    "status": "success",
+    "summary_20": "MCP server for Asana enables AI tools like Claude to interact with Asana tasks, projects, and workspaces using the Model Context Protocol."
+  },
+  {
+    "repo": "rusiaaman/wcgw",
+    "status": "success",
+    "summary_20": "wcgw empowers chat applications to code, build, and run on local machines, integrating shell and code editing tools for Claude and ChatGPT."
+  },
+  {
+    "repo": "SecretiveShell/MCP-wolfram-alpha",
+    "status": "success",
+    "summary_20": "MCP-wolfram-alpha is a server connecting to the Wolfram Alpha API. It offers prompts and tools to query Wolfram Alpha using a specified API key."
+  },
+  {
+    "repo": "Seym0n/tiktok-mcp",
+    "status": "success",
+    "summary_20": "TikTok MCP integrates TikTok access into Claude AI via TikNeuron, enabling video analysis, content retrieval, and chatting with TikTok videos."
+  },
+  {
+    "repo": "Shopify/dev-mcp",
+    "status": "success",
+    "summary_20": "Shopify Dev MCP server enables tools like search_dev_docs and introspect_admin_schema. It assists in writing Shopify Admin API GraphQL operations via prompts."
+  },
+  {
+    "repo": "sirmews/apple-notes-mcp",
+    "status": "success",
+    "summary_20": "This server connects Apple Notes to Claude Desktop, enabling Claude to search and retrieve information from your notes. Limited functionality, contributions welcome."
+  },
+  {
+    "repo": "sooperset/mcp-atlassian",
+    "status": "success",
+    "summary_20": "MCP Atlassian connects AI assistants to Confluence and Jira (Cloud/Server) for automated updates, search, smart filtering, and content creation using Docker."
+  },
+  {
+    "repo": "suekou/mcp-notion-server",
+    "status": "success",
+    "summary_20": "The Notion MCP Server enables LLMs to interact with Notion, using Markdown conversion to reduce context size and optimize token usage."
+  },
+  {
+    "repo": "tacticlaunch/mcp-linear",
+    "status": "success",
+    "summary_20": "MCP Linear connects AI assistants to Linear, enabling interaction with issues, projects, and teams via the Model Context Protocol."
+  },
+  {
+    "repo": "tanigami/mcp-server-perplexity",
+    "status": "success",
+    "summary_20": "MCP server for the Perplexity API, enabling chat completion with citations. Integrates with Claude Desktop, but may face timeout issues."
+  },
+  {
+    "repo": "tevonsb/homeassistant-mcp",
+    "status": "success",
+    "summary_20": "MCP server for Home Assistant enabling LLM control. Features device & automation management, real-time updates, and secure API access via Docker."
+  },
+  {
+    "repo": "tomekkorbak/oura-mcp-server",
+    "status": "success",
+    "summary_20": "Oura MCP Server provides language models access to Oura API data (sleep, readiness, resilience) via date range and today's data queries."
+  },
+  {
+    "repo": "kw510/strava-mcp",
+    "status": "success",
+    "summary_20": "Strava-integrated MCP server using Cloudflare Workers, enabling user authentication via Strava OAuth for remote Model Context Protocol connections and tool usage."
+  },
+  {
+    "repo": "wanaku-ai/wanaku",
+    "status": "success",
+    "summary_20": "Wanaku is a Model Context Protocol (MCP) router for AI applications, standardizing how applications provide context to LLMs, enabling seamless integration."
+  },
+  {
+    "repo": "wong2/mcp-cli",
+    "status": "success",
+    "summary_20": "mcp-cli is a CLI tool for inspecting Model Context Protocol (MCP) servers, enabling listing and calling tools, resources, and prompts from various sources."
+  },
+  {
+    "repo": "nick1udwig/ws-mcp",
+    "status": "success",
+    "summary_20": "ws-mcp wraps MCP stdio servers with a WebSocket for use with kibitz, enabling easy access and management of MCP servers."
+  },
+  {
+    "repo": "yuna0x0/hackmd-mcp",
+    "status": "success",
+    "summary_20": "HackMD MCP Server enables AI assistants to interact with HackMD notes via API, offering tools for user, note, and team management."
+  },
+  {
+    "repo": "ZeparHyfar/mcp-datetime",
+    "status": "success",
+    "summary_20": "mcp-datetime is a Python-based MCP server providing versatile datetime formatting for the Claude Desktop Application, including Japanese formats and timezone handling."
+  },
+  {
+    "repo": "zueai/mcp-manager",
+    "status": "success",
+    "summary_20": "MCP Manager is a desktop app for MacOS to manage Model Context Protocol servers, enhancing Claude Desktop with private data and API access."
+  },
+  {
+    "repo": "HenryHaoson/Yuque-MCP-Server",
+    "status": "success",
+    "summary_20": "Yuque-MCP-Server integrates with the Yuque API, offering an MCP interface for AI models to access and manipulate Yuque knowledge base data."
+  },
+  {
+    "repo": "tumf/web3-mcp",
+    "status": "success",
+    "summary_20": "Web3-mcp provides an MCP server wrapping Ankr Advanced API, enabling LLMs to access blockchain data across multiple chains. Supports NFT, Query, and Token APIs."
+  },
+  {
+    "repo": "danielkennedy1/pdf-tools-mcp",
+    "status": "success",
+    "summary_20": "PDF Tools MCP offers local and remote PDF manipulation via the MCP framework, including merging, metadata extraction, and display functionalities."
+  },
+  {
+    "repo": "jlowin/fastmcp",
+    "status": "success",
+    "summary_20": "FastMCP simplifies building Model Context Protocol (MCP) servers and clients in Python, enabling LLM integration with tools, resources, and prompts."
+  },
+  {
+    "repo": "punkpeye/fastmcp",
+    "status": "success",
+    "summary_20": "FastMCP: A TypeScript framework simplifies building MCP servers with tools, resources, prompts, authentication, sessions, SSE, and testing utilities for client interaction."
+  },
+  {
+    "repo": "strowk/foxy-contexts",
+    "status": "success",
+    "summary_20": "Foxy Contexts: A Golang library for declarative Model Context Protocol (MCP) server development, leveraging tools, resources, and prompts with Uber's fx framework."
+  },
+  {
+    "repo": "gabfr/waha-api-mcp-server",
+    "status": "success",
+    "summary_20": "This server parses OpenAPI specs, generates MCP tools for Claude AI, and makes live API calls based on Claude's requests, simplifying API integration."
+  },
+  {
+    "repo": "firebase/genkit",
+    "status": "success",
+    "summary_20": "Genkit is a framework for building AI-powered applications with Node.js and Go, offering tools for debugging and rapid iteration."
+  },
+  {
+    "repo": "lastmile-ai/mcp-agent",
+    "status": "success",
+    "summary_20": "mcp-agent is a composable Python framework for building AI agents using Model Context Protocol, implementing patterns for robust, controllable applications."
+  },
+  {
+    "repo": "wong2/litemcp",
+    "status": "success",
+    "summary_20": "LiteMCP: TypeScript framework for building Model Context Protocol (MCP) servers. Features include tools, resources, prompts, logging, debugging, and SSE transport support."
+  },
+  {
+    "repo": "marimo-team/codemirror-mcp",
+    "status": "success",
+    "summary_20": "CodeMirror extension implementing Model Context Protocol (MCP) for resource mentions and prompt commands, enabling autocomplete, decorations, and customizable themes."
+  },
+  {
+    "repo": "mark3labs/mcp-go",
+    "status": "success",
+    "summary_20": "MCP-Go: Go implementation of the Model Context Protocol (MCP), enabling seamless integration between LLM applications and external data sources/tools. Focuses on ease of use."
+  },
+  {
+    "repo": "QuantGeekDev/mcp-framework",
+    "status": "success",
+    "summary_20": "MCP-Framework is a TypeScript framework simplifying Model Context Protocol server development with automatic discovery, CLI tools, and multiple transport support including SSE and HTTP Stream."
+  },
+  {
+    "repo": "punkpeye/mcp-proxy",
+    "status": "success",
+    "summary_20": "MCP Proxy is a TypeScript SSE proxy for MCP servers utilizing stdio transport, enabling client-server communication with CORS enabled by default."
+  },
+  {
+    "repo": "linux-china/mcp-rs-template",
+    "status": "success",
+    "summary_20": "MCP Rust CLI server template demonstrates implementing the Model Context Protocol. It uses rust-rpc-router and offers CLI options for resource, prompt, and tool management."
+  },
+  {
+    "repo": "metoro-io/mcp-golang",
+    "status": "success",
+    "summary_20": "mcp-golang is a Go implementation of the Model Context Protocol, enabling easy creation of MCP servers and clients with type safety."
+  },
+  {
+    "repo": "paulotaylor/voyp-mcp",
+    "status": "success",
+    "summary_20": "The Voyp MCP server connects AI systems like Claude to phone call capabilities, enabling automated calls, status updates, and call management via the MCP."
+  },
+  {
+    "repo": "poem-web/poem",
+    "status": "success",
+    "summary_20": "Poem is a full-featured, easy-to-use Rust web framework. It includes components for web applications, AWS Lambda, and OpenAPI integration."
+  },
+  {
+    "repo": "quarkiverse/quarkus-mcp-server",
+    "status": "success",
+    "summary_20": "Quarkus extension providing APIs to implement Model Context Protocol (MCP) servers, enabling seamless integration between LLM applications and external data sources."
+  },
+  {
+    "repo": "rectalogic/langchain-mcp",
+    "status": "success",
+    "summary_20": "LangChain-MCP enables Model Context Protocol tool calling in LangChain. Use MCPToolkit with mcp.ClientSession to access LangChain tools."
+  },
+  {
+    "repo": "ribeirogab/simple-mcp",
+    "status": "success",
+    "summary_20": "Simple-mcp is a TypeScript library for creating Model Context Protocol (MCP) servers with type safety, parameter validation, and a simple API."
+  },
+  {
+    "repo": "salty-flower/ModelContextProtocol.NET",
+    "status": "success",
+    "summary_20": "C# SDK for Model Context Protocol (MCP) with standard I/O, tool integration, and AOT support. Calculator demo included; WebSocket and prompts in development."
+  },
+  {
+    "repo": "spring-projects-experimental/spring-ai-mcp",
+    "status": "success",
+    "summary_20": "Java SDK and Spring integration for the Model Context Protocol, enabling AI model interaction with standardized interfaces and communication patterns. Archived repository."
+  },
+  {
+    "repo": "spring-projects-experimental/spring-ai-mcp",
+    "status": "success",
+    "summary_20": "Java SDK and Spring integration for Model Context Protocol (MCP), enabling Java apps to interact with AI models through standardized interfaces."
+  },
+  {
+    "repo": "mcpdotdirect/template-mcp-server",
+    "status": "success",
+    "summary_20": "Template for building MCP servers using FastMCP, offering stdio and HTTP transports, TypeScript support, and easy extension with custom tools and resources."
+  },
+  {
+    "repo": "boilingdata/mcp-server-and-gw",
+    "status": "success",
+    "summary_20": "This repository provides a Model Context Protocol (MCP) gateway, server, and client for bridging stdio to HTTP SSE endpoints, enabling Claude Desktop integration."
+  },
+  {
+    "repo": "f/mcptools",
+    "status": "success",
+    "summary_20": "MCP Tools: A versatile CLI for Model Context Protocol servers. Discover, call, and manage tools, resources, and prompts with ease."
+  },
+  {
+    "repo": "flux159/mcp-chat",
+    "status": "success",
+    "summary_20": "mcp-chat is an open-source MCP client for testing MCP servers, offering CLI and web interfaces, model selection, and chat history saving."
+  },
+  {
+    "repo": "isaacwasserman/mcp-langchain-ts-client",
+    "status": "success",
+    "summary_20": "A LangChain.js client for Model Context Protocol (MCP), ported from rectalogic/langchain-mcp. Enables interaction with MCP servers using LangChain tools."
+  },
+  {
+    "repo": "kukapay/whattimeisit-mcp",
+    "status": "success",
+    "summary_20": "WhatTimeIsIt-MCP is a lightweight MCP server providing the current time based on your IP, using the World Time API. MIT licensed."
+  },
+  {
+    "repo": "kukapay/whereami-mcp",
+    "status": "success",
+    "summary_20": "WhereAmI MCP server provides geolocation data from IP addresses. It uses dynamic resources, a detailed tool, and a natural language prompt."
+  },
+  {
+    "repo": "kukapay/whoami-mcp",
+    "status": "success",
+    "summary_20": "WhoAmI MCP Server: A lightweight server providing the system username as your name, designed for fast local LLM integration using Python."
+  },
+  {
+    "repo": "lightconetech/mcp-gateway",
+    "status": "success",
+    "summary_20": "This gateway bridges Claude Desktop's stdio MCP with HTTP/SSE servers, enabling communication despite protocol differences. It translates requests and responses for compatibility."
+  },
+  {
+    "repo": "mark3labs/mcphost",
+    "status": "success",
+    "summary_20": "MCPHost enables LLMs to interact with external tools via the Model Context Protocol, supporting Claude, Ollama, Gemini, and OpenAI-compatible models."
+  },
+  {
+    "repo": "EvalsOne/MCP-Connect",
+    "status": "success",
+    "summary_20": "MCP Connect bridges cloud AI and local MCP servers via HTTP/HTTPS, offering secure, flexible access with built-in Ngrok support.  "
+  },
+  {
+    "repo": "SecretiveShell/MCP-Bridge",
+    "status": "success",
+    "summary_20": "MCP-Bridge connects OpenAI API to MCP tools, enabling interaction without explicit support. Docker installation is recommended; supports non/streaming completions and MCP tools."
+  },
+  {
+    "repo": "sparfenyuk/mcp-proxy",
+    "status": "success",
+    "summary_20": "mcp-proxy switches between server transports like stdio and SSE, enabling Claude Desktop to connect to remote servers and expose local servers remotely."
+  },
+  {
+    "repo": "TBXark/mcp-proxy",
+    "status": "success",
+    "summary_20": "MCP Proxy aggregates multiple MCP resource servers into a single HTTP server, supporting SSE for real-time updates and flexible client configurations."
+  },
+  {
+    "repo": "Upsonic/gpt-computer-assistant",
+    "status": "success",
+    "summary_20": "Upsonic is a reliability-focused Python framework for building production-ready AI agents with advanced features like verification layers and secure runtime environments."
+  },
+  {
+    "repo": "JoshuaSiraj/mcp_auto_register",
+    "status": "success",
+    "summary_20": "Automatically registers functions and classes from Python packages into a FastMCP instance, simplifying integration and extending FastMCP functionality with external libraries."
+  }
+]
