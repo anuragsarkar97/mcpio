@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "MCP Registry ORG",
+  title: "MCP Registry",
   description: "Model context protocol server registry",
 };
 
