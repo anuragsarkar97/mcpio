@@ -3,16 +3,7 @@ import {Geist, Geist_Mono} from "next/font/google";
 import "./globals.css";
 import {Header} from "@/app/components/header";
 import {Footer} from "@/app/components/footer";
-import { Analytics } from "@vercel/analytics/react"
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata: Metadata = {
   title: "MCP Registry",
@@ -41,6 +32,7 @@ export default function RootLayout({
       </div>
       <Footer/>
       </body>
+      <GoogleAnalytics gaId={process.env.GA_ID || ""} />
       </html>
   );
 }
