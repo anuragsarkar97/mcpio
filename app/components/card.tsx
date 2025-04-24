@@ -13,7 +13,7 @@ import {
   Octagon,
   PanelLeftOpen
 } from "lucide-react";
-import {redirect} from 'next/navigation';
+import { useRouter } from 'next/navigation'
 
 interface CardProps {
   title?: string;
@@ -50,10 +50,11 @@ export const Card = ({
                        id,
                      }: CardProps) => {
 
+  const router = useRouter()
   const clickAction = () => {
     console.log("clicked", id);
     if (urlx)
-      redirect(urlx)
+      router.push(urlx)
   }
 
   return (
