@@ -25,14 +25,14 @@ export default function AboutPage() {
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">What We Offer</h2>
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">
-                <h3 className="text-lg font-medium text-indigo-600">Server Discovery</h3>
+                <h3 className="text-lg font-medium text-black">Server Discovery</h3>
                 <p className="text-gray-600">
                   Find the perfect MCP server for your playstyle with our comprehensive search and
                   filtering system.
                 </p>
               </div>
               <div className="space-y-4">
-                <h3 className="text-lg font-medium text-indigo-600">Community Tools</h3>
+                <h3 className="text-lg font-medium text-black">Community Tools</h3>
                 <p className="text-gray-600">
                   Access powerful tools to manage your server listing, engage with your community,
                   and track your server's growth.
@@ -50,7 +50,7 @@ export default function AboutPage() {
             <div className="flex justify-center">
               <a
                 href="/servers"
-                className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
+                className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-black"
               >
                 Get Started
               </a>

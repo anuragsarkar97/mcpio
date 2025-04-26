@@ -153,7 +153,7 @@ export default function RegisterForm() {
             <button
               type="submit"
               disabled={isSubmitting}
-              className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 disabled:opacity-50"
+              className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-black cursor-pointer focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50"
             >
               {isSubmitting ? 'Registering...' : 'Register'}
             </button>
@@ -164,7 +164,7 @@ export default function RegisterForm() {
             By registering, you agree that we will use your email for communication, your server URL
             for service integration, your company name and GitHub Repo for account identification
             purposes. Please note that we will not share your data with any third parties. Read out{' '}
-            <Link href="/about" className="text-indigo-600">
+            <Link href="/about" className="text-black font-bold">
               About us
             </Link>{' '}
             page for more information.

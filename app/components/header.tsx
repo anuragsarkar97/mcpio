@@ -28,8 +28,8 @@ export const Header = () => {
                 href="/servers"
                 className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
                   isActive('/servers')
-                    ? 'bg-indigo-50 text-indigo-600'
-                    : 'text-gray-600 hover:text-indigo-600 hover:bg-indigo-50'
+                    ? 'bg-gray-200 text-gray-900'
+                    : 'text-gray-600 hover:text-gray-900 hover:bg-gray-100'
                 }`}
               >
                 Servers
@@ -38,8 +38,8 @@ export const Header = () => {
                 href="/about"
                 className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
                   isActive('/about')
-                    ? 'bg-indigo-50 text-indigo-600'
-                    : 'text-gray-600 hover:text-indigo-600 hover:bg-indigo-50'
+                    ? 'bg-gray-200 text-gray-900'
+                    : 'text-gray-600 hover:text-gray-900 hover:bg-gray-100'
                 }`}
               >
                 About us
