@@ -11,9 +11,9 @@ import {
   Move,
   MoveDiagonal2,
   Octagon,
-  PanelLeftOpen
-} from "lucide-react";
-import { useRouter } from 'next/navigation'
+  PanelLeftOpen,
+} from 'lucide-react';
+import { useRouter } from 'next/navigation';
 
 interface CardProps {
   title?: string;
@@ -24,55 +24,45 @@ interface CardProps {
 }
 
 const icon_list = [
-  <Microscope/>,
-  <Container/>,
-  <Footprints/>,
-  <GalleryHorizontal/>,
-  <Gamepad/>,
-  <MonitorDot/>,
-  <Minimize/>,
-  <Move/>,
-  <MonitorSmartphone/>,
-  <MoveDiagonal2/>,
-  <Octagon/>,
-  <PanelLeftOpen/>
-]
+  <Microscope />,
+  <Container />,
+  <Footprints />,
+  <GalleryHorizontal />,
+  <Gamepad />,
+  <MonitorDot />,
+  <Minimize />,
+  <Move />,
+  <MonitorSmartphone />,
+  <MoveDiagonal2 />,
+  <Octagon />,
+  <PanelLeftOpen />,
+];
 
 function getRandomInt(max: number) {
   return Math.floor(Math.random() * max);
 }
 
-export const Card = ({
-                       tags,
-                       urlx,
-                       title,
-                       description,
-                       id,
-                     }: CardProps) => {
-
-  const router = useRouter()
+export const Card = ({ tags, urlx, title, description, id }: CardProps) => {
+  const router = useRouter();
   const clickAction = () => {
-    console.log("clicked", id);
-    if (urlx)
-      router.push(urlx)
-  }
+    console.log('clicked', id);
+    if (urlx) router.push(urlx);
+  };
 
   return (
-      <div className="card w-72 shadow border border-gray-100 h-32 hover:border-gray-300"
-           onClick={clickAction}>
-        <div className={"flex flex-row items-center gap-3 p-5"}>
+    <div
+      className="card w-72 shadow border border-gray-100 h-32 hover:border-gray-300"
+      onClick={clickAction}
+    >
+      <div className={'flex flex-row items-center gap-3 p-5'}>
+        <div>{icon_list.at(getRandomInt(icon_list.length))}</div>
+        <div className={'max-w-full'}>
           <div>
-            {icon_list.at(getRandomInt(icon_list.length))}
+            <p className={'text-lg pb-1'}>{title}</p>
           </div>
-          <div className={"max-w-full"}>
-            <div>
-              <p className={"text-lg pb-1"}>{title}</p>
-            </div>
-            <p className={"text-sm line-clamp-2"}>
-              {description}
-            </p>
-          </div>
+          <p className={'text-sm line-clamp-2'}>{description}</p>
         </div>
       </div>
+    </div>
   );
-}
+};

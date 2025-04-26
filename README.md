@@ -23,6 +23,7 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 ## GitHub Repository Sync
 
 This project includes a script (`sync.py`) that:
+
 1. Fetches README files from GitHub repositories
 2. Uses OpenAI to generate 20-word and 50-word summaries
 3. Uploads the data to Algolia for search functionality
@@ -30,11 +31,13 @@ This project includes a script (`sync.py`) that:
 ### Setup for Sync Script
 
 1. Create a `.env` file based on `.env.example`:
+
    ```
    cp .env.example .env
    ```
 
 2. Fill in your API keys in the `.env` file:
+
    ```
    ALGOLIA_APP_ID=your_app_id
    ALGOLIA_ADMIN_API_KEY=your_admin_api_key
@@ -44,6 +47,7 @@ This project includes a script (`sync.py`) that:
    ```
 
 3. Set up a Python virtual environment and install dependencies:
+
    ```bash
    python3 -m venv venv
    source venv/bin/activate

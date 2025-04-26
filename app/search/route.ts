@@ -1,10 +1,10 @@
-import {NextRequest, NextResponse} from 'next/server';
-import {algoliasearch} from 'algoliasearch';
+import { NextRequest, NextResponse } from 'next/server';
+import { algoliasearch } from 'algoliasearch';
 
 // Initialize Algolia client
 const algoliaClient = algoliasearch(
-    process.env.ALGOLIA_APP_ID || 'your_app_id',
-    process.env.ALGOLIA_API_KEY || 'your_api_key'
+  process.env.ALGOLIA_APP_ID || 'your_app_id',
+  process.env.ALGOLIA_API_KEY || 'your_api_key'
 );
 
 // Index name to search in
@@ -28,9 +28,9 @@ export async function GET(request: NextRequest) {
       requests: [
         {
           indexName: INDEX_NAME,
-          query
-        }
-      ]
+          query,
+        },
+      ],
     });
 
     // Return the raw Algolia search results
@@ -38,8 +38,10 @@ export async function GET(request: NextRequest) {
   } catch (error) {
     console.error('Search error:', error);
     return NextResponse.json(
-        {error: `Failed to perform search: ${error instanceof Error ? error.message : String(error)}`},
-        {status: 500}
+      {
+        error: `Failed to perform search: ${error instanceof Error ? error.message : String(error)}`,
+      },
+      { status: 500 }
     );
   }
 }
