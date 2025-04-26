@@ -23,7 +23,7 @@ export const Header = () => {
             </Link>
           </div>
           <div className={'flex items-center'}>
-            <nav className={'hidden lg:flex items-center space-x-2'}>
+            <nav className={'lg:flex items-center space-x-2'}>
               <Link
                 href="/servers"
                 className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
