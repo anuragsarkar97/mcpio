@@ -4,7 +4,7 @@ import { algoliasearch } from 'algoliasearch';
 // Initialize Algolia client
 const algoliaClient = algoliasearch(
   process.env.ALGOLIA_APP_ID || 'your_app_id',
-  process.env.ALGOLIA_API_KEY || 'your_api_key'
+  process.env.ALGOLIA_WRITE_API_KEY || 'your_api_key'
 );
 
 export async function POST(request: NextRequest) {
