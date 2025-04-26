@@ -18,7 +18,7 @@ export const Header = () => {
         <div className={'flex items-center justify-between h-full'}>
           <div className={'flex items-center space-x-8'}>
             <Link className={'flex items-center space-x-2'} href="/">
-              <span className={'text-2xl'}>🌈</span>
+              <img src="/icon.svg" alt="MCP Registry" className="w-6 h-6" />
               <span className={'font-medium text-black'}>MCP Registry</span>
             </Link>
           </div>
